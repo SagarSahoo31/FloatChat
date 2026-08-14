@@ -111,8 +111,3 @@ docker-compose up --build
 3. Build Command: `pip install -r requirements.txt && python build_index.py`
 4. Start Command: `gunicorn -w 2 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:$PORT`
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
